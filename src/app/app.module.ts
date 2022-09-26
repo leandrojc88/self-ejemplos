@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { CharizardComponent } from './basic/charizard/charizard.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FatherComponent } from './basic/father/father.component';
+import { FatherSonComponent } from './basic/father-son/father-son.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
-    CharizardComponent
+    CharizardComponent,
+    FatherComponent,
+    FatherSonComponent
   ],
   imports: [
     BrowserModule,
