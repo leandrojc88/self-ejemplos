@@ -8,6 +8,7 @@ import { CharizardComponent } from './basic/charizard/charizard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FatherComponent } from './basic/father/father.component';
 import { FatherSonComponent } from './basic/father-son/father-son.component';
+import { CounterRouteComponent } from './basic/counter-route/counter-route.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FatherSonComponent } from './basic/father-son/father-son.component';
     CounterComponent,
     CharizardComponent,
     FatherComponent,
-    FatherSonComponent
+    FatherSonComponent,
+    CounterRouteComponent
   ],
   imports: [
     BrowserModule,
